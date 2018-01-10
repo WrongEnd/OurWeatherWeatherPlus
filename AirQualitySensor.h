@@ -7,7 +7,7 @@ int getAirQuality(void)
  // int16_t sensor_value = adsAirQuality.readADC_SingleEnded(0);
   Serial.print("Sensor_Value=");
   Serial.print(sensor_value);
-  Serial.print("--->");
+  Serial.print("---->");
 
 #ifdef DEBUG
   int i;
